@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html><html lang="en-GB" class="html_stretched responsive av-preloader-disabled  html_header_top html_logo_left html_main_nav_header html_menu_right html_large html_header_sticky_disabled html_header_shrinking_disabled html_header_transparency html_mobile_menu_tablet html_header_searchicon_disabled html_content_align_center html_header_unstick_top_disabled html_header_stretch_disabled html_minimal_header html_minimal_header_shadow html_elegant-blog html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-minimal html_av-submenu-clone html_entry_id_143 av-cookies-no-cookie-consent av-no-preview av-default-lightbox html_text_menu_active av-mobile-menu-switch-default avia_desktop  js_active  avia_transform  avia_transform3d "><head>
+<!DOCTYPE html><html lang="en-GB" class="html_stretched responsive av-preloader-disabled  html_header_top html_logo_left html_main_nav_header html_menu_right html_large html_header_sticky_disabled html_header_shrinking_disabled html_header_transparency html_mobile_menu_tablet html_header_searchicon_disabled html_content_align_center html_header_unstick_top_disabled html_header_stretch_disabled html_minimal_header html_minimal_header_shadow html_elegant-blog html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-minimal html_av-submenu-clone html_entry_id_143 av-cookies-no-cookie-consent av-no-preview av-default-lightbox html_text_menu_active av-mobile-menu-switch-default avia_desktop  js_active  avia_transform  avia_transform3d "><head>
 <meta charset="UTF-8">
 
 
@@ -11,12 +11,12 @@
 	<!-- This site is optimized with the Yoast SEO plugin v24.7 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Therapy Training Solutions | Mental Health Wellness</title>
 	<meta name="description" content="Therapy and Training Solutions Ltd is a provider of Psychological Therapies &amp; Mental Health Wellness training for businesses.">
-	<link rel="canonical" href="/home/">
+	<link rel="canonical" href="https://therapytrainingsolutions.com/home/">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Therapy Training Solutions | Mental Health Wellness">
 	<meta property="og:description" content="Therapy and Training Solutions Ltd is a provider of Psychological Therapies &amp; Mental Health Wellness training for businesses.">
-	<meta property="og:url" content="/home/">
+	<meta property="og:url" content="https://therapytrainingsolutions.com/home/">
 	<meta property="og:site_name" content="Therapy Training Solutions">
 	<meta property="article:modified_time" content="2026-04-06T12:33:07+00:00">
 	<meta name="twitter:card" content="summary_large_image">
@@ -24,8 +24,10 @@
 	<!-- / Yoast SEO plugin. -->
 
 
-<link rel="alternate" type="application/rss+xml" title="Therapy Training Solutions Â» Feed" href="/feed/">
-<link rel="alternate" type="application/rss+xml" title="Therapy Training Solutions Â» Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Therapy Training Solutions » Feed" href="https://therapytrainingsolutions.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Therapy Training Solutions » Comments Feed" href="https://therapytrainingsolutions.com/comments/feed/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://therapytrainingsolutions.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftherapytrainingsolutions.com%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://therapytrainingsolutions.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftherapytrainingsolutions.com%2F&amp;format=xml">
 
 <!-- google webfont font replacement -->
 
@@ -80,7 +82,7 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 </style>
-<link rel="stylesheet" id="formidable-css" href="/wp-content/plugins/formidable/css/formidableforms.css?ver=3191437" media="all">
+<link rel="stylesheet" id="formidable-css" href="https://therapytrainingsolutions.com/wp-content/plugins/formidable/css/formidableforms.css?ver=3191437" media="all">
 <style id="wp-emoji-styles-inline-css">
 
 	img.wp-smiley, img.emoji {
@@ -107,40 +109,40 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=global-styles-inline-css */
 </style>
 
-<link rel="stylesheet" id="mediaelement-css" href="/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17" media="all">
-<link rel="stylesheet" id="wp-mediaelement-css" href="/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.0.4" media="all">
-<link rel="stylesheet" id="avia-merged-styles-css" href="/wp-content/uploads/dynamic_avia/avia-merged-styles-a7b9340846c7d0eb1433fabc374eac28---668e951b6c77f.css" media="all">
-<link rel="stylesheet" id="avia-single-post-143-css" href="/wp-content/uploads/dynamic_avia/avia_posts_css/post-143.css?ver=ver-1775478793" media="all">
-<script id="jquery-core-js" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
-<script id="jquery-migrate-js" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
-<link rel="https://api.w.org/" href="/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/143"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="stylesheet" id="mediaelement-css" href="https://therapytrainingsolutions.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="https://therapytrainingsolutions.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.0.4" media="all">
+<link rel="stylesheet" id="avia-merged-styles-css" href="https://therapytrainingsolutions.com/wp-content/uploads/dynamic_avia/avia-merged-styles-a7b9340846c7d0eb1433fabc374eac28---668e951b6c77f.css" media="all">
+<link rel="stylesheet" id="avia-single-post-143-css" href="https://therapytrainingsolutions.com/wp-content/uploads/dynamic_avia/avia_posts_css/post-143.css?ver=ver-1775478793" media="all">
+<script id="jquery-core-js" src="https://therapytrainingsolutions.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://therapytrainingsolutions.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://therapytrainingsolutions.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://therapytrainingsolutions.com/wp-json/wp/v2/pages/143"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://therapytrainingsolutions.com/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 7.0.4">
-<link rel="shortlink" href="/">
+<link rel="shortlink" href="https://therapytrainingsolutions.com/">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="alternate" type="application/rss+xml" title="Therapy Training Solutions RSS2 Feed" href="/feed/">
-<link rel="pingback" href="/xmlrpc.php">
-<!--[if lt IE 9]><script src="/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
-<link rel="icon" href="/wp-content/uploads/2023/03/tts-icon.png" type="image/png">
+<link rel="alternate" type="application/rss+xml" title="Therapy Training Solutions RSS2 Feed" href="https://therapytrainingsolutions.com/feed/">
+<link rel="pingback" href="https://therapytrainingsolutions.com/xmlrpc.php">
+<!--[if lt IE 9]><script src="https://therapytrainingsolutions.com/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
+<link rel="icon" href="http://therapytrainingsolutions.com/wp-content/uploads/2023/03/tts-icon.png" type="image/png">
 
 <!-- To speed up the rendering and to display the site as fast as possible to the user we include some styles and scripts for above the fold content inline -->
 <script type="text/javascript">'use strict';var avia_is_mobile=!1;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&'ontouchstart' in document.documentElement){avia_is_mobile=!0;document.documentElement.className+=' avia_mobile '}
 else{document.documentElement.className+=' avia_desktop '};document.documentElement.className+=' js_active ';(function(){var e=['-webkit-','-moz-','-ms-',''],n='',o=!1,a=!1;for(var t in e){if(e[t]+'transform' in document.documentElement.style){o=!0;n=e[t]+'transform'};if(e[t]+'perspective' in document.documentElement.style){a=!0}};if(o){document.documentElement.className+=' avia_transform '};if(a){document.documentElement.className+=' avia_transform3d '};if(typeof document.getElementsByClassName=='function'&&typeof document.documentElement.getBoundingClientRect=='function'&&avia_is_mobile==!1){if(n&&window.innerHeight>0){setTimeout(function(){var e=0,o={},a=0,t=document.getElementsByClassName('av-parallax'),i=window.pageYOffset||document.documentElement.scrollTop;for(e=0;e<t.length;e++){t[e].style.top='0px';o=t[e].getBoundingClientRect();a=Math.ceil((window.innerHeight+i-o.top)*0.3);t[e].style[n]='translate(0px, '+a+'px)';t[e].style.top='auto';t[e].className+=' enabled-parallax '}},50)}}})();</script><style type="text/css">
 		@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal; font-display: auto;
-		src: url('/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff2') format('woff2'),
-		url('/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'),
-		url('/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype'),
-		url('/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg#entypo-fontello') format('svg'),
-		url('/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot'),
-		url('/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?#iefix') format('embedded-opentype');
+		src: url('https://therapytrainingsolutions.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff2') format('woff2'),
+		url('https://therapytrainingsolutions.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'),
+		url('https://therapytrainingsolutions.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype'),
+		url('https://therapytrainingsolutions.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg#entypo-fontello') format('svg'),
+		url('https://therapytrainingsolutions.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot'),
+		url('https://therapytrainingsolutions.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?#iefix') format('embedded-opentype');
 		} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
 		
 		@font-face {font-family: 'lifestyles'; font-weight: normal; font-style: normal; font-display: auto;
-		src: url('/wp-content/uploads/avia_fonts/lifestyles/lifestyles.woff2') format('woff2'),
-		url('/wp-content/uploads/avia_fonts/lifestyles/lifestyles.woff') format('woff'),
-		url('/wp-content/uploads/avia_fonts/lifestyles/lifestyles.ttf') format('truetype'),
-		url('/wp-content/uploads/avia_fonts/lifestyles/lifestyles.svg#lifestyles') format('svg'),
-		url('/wp-content/uploads/avia_fonts/lifestyles/lifestyles.eot'),
-		url('/wp-content/uploads/avia_fonts/lifestyles/lifestyles.eot?#iefix') format('embedded-opentype');
+		src: url('https://therapytrainingsolutions.com/wp-content/uploads/avia_fonts/lifestyles/lifestyles.woff2') format('woff2'),
+		url('https://therapytrainingsolutions.com/wp-content/uploads/avia_fonts/lifestyles/lifestyles.woff') format('woff'),
+		url('https://therapytrainingsolutions.com/wp-content/uploads/avia_fonts/lifestyles/lifestyles.ttf') format('truetype'),
+		url('https://therapytrainingsolutions.com/wp-content/uploads/avia_fonts/lifestyles/lifestyles.svg#lifestyles') format('svg'),
+		url('https://therapytrainingsolutions.com/wp-content/uploads/avia_fonts/lifestyles/lifestyles.eot'),
+		url('https://therapytrainingsolutions.com/wp-content/uploads/avia_fonts/lifestyles/lifestyles.eot?#iefix') format('embedded-opentype');
 		} #top .avia-font-lifestyles, body .avia-font-lifestyles, html body [data-av_iconfont='lifestyles']:before{ font-family: 'lifestyles'; }
 		</style>
 
@@ -177,7 +179,7 @@ PLAu:6
 
 		<div id="header_main" class="container_wrap container_wrap_logo">
 
-        <div class="container av-logo-container"><div class="inner-container"><span class="logo avia-standard-logo"><a href="./index.html" class="" aria-label="Link"><img src="/wp-content/uploads/2023/03/Training-and-Therapy-Solutions.png" height="100" width="300" alt="Therapy Training Solutions" title="Training-and-Therapy-Solutions" loading="lazy" decoding="async"><span class="subtext avia-standard-logo-sub"><img src="/wp-content/uploads/2023/03/Training-and-Therapy-Solutions.png" class="alternate avia-standard-logo" alt="" title="Training-and-Therapy-Solutions" loading="lazy" decoding="async"></span></a></span><nav class="main_menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><div class="avia-menu av-main-nav-wrap"><ul role="menu" class="menu av-main-nav" id="avia-menu"><li role="menuitem" id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-143 current_page_item menu-item-top-level menu-item-top-level-1"><a href="./index.html" itemprop="url" tabindex="0" data-nce-hover-nav="true"><span class="avia-bullet"></span><span class="avia-menu-text">Home</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+        <div class="container av-logo-container"><div class="inner-container"><span class="logo avia-standard-logo"><a href="./index.html" class="" aria-label="Link"><img src="https://therapytrainingsolutions.com/wp-content/uploads/2023/03/Training-and-Therapy-Solutions.png" height="100" width="300" alt="Therapy Training Solutions" title="Training-and-Therapy-Solutions" loading="lazy" decoding="async"><span class="subtext avia-standard-logo-sub"><img src="https://therapytrainingsolutions.com/wp-content/uploads/2023/03/Training-and-Therapy-Solutions.png" class="alternate avia-standard-logo" alt="" title="Training-and-Therapy-Solutions" loading="lazy" decoding="async"></span></a></span><nav class="main_menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><div class="avia-menu av-main-nav-wrap"><ul role="menu" class="menu av-main-nav" id="avia-menu"><li role="menuitem" id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-143 current_page_item menu-item-top-level menu-item-top-level-1"><a href="./index.html" itemprop="url" tabindex="0" data-nce-hover-nav="true"><span class="avia-bullet"></span><span class="avia-menu-text">Home</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
 <li role="menuitem" id="menu-item-465" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-mega-parent  menu-item-top-level menu-item-top-level-2"><a href="#about" itemprop="url" tabindex="0" data-nce-hover-nav="true"><span class="avia-bullet"></span><span class="avia-menu-text">About</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
 <li role="menuitem" id="menu-item-468" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-3"><a href="#event" itemprop="url" tabindex="0" data-nce-hover-nav="true"><span class="avia-bullet"></span><span class="avia-menu-text">Event</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
 <li role="menuitem" id="menu-item-469" class="menu-item menu-item-type-custom menu-item-object-custom av-menu-button av-menu-button-bordered menu-item-top-level menu-item-top-level-4"><a href="#register" itemprop="url" tabindex="0" data-nce-hover-nav="true"><span class="avia-bullet"></span><span class="avia-menu-text">Register For Event</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
@@ -201,7 +203,7 @@ PLAu:6
 
 	<div id="main" class="all_colors" data-scroll-offset="0">
 
-	<div class="avia-fullscreen-slider main_color   avia-builder-el-0  el_before_av_layout_row  avia-builder-el-first  container_wrap fullsize"><a href="#next-section" title="" class="scroll-down-link av-control-hidden" aria-hidden="true" data-av_icon="î¡·" data-av_iconfont="entypo-fontello"></a><div class="avia-slideshow av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99 avia-slideshow-no scaling av_fullscreen avia-fade-slider av-slideshow-ui av-control-hidden av-no-slider-navigation av-hide-nav-arrows av-slideshow-autoplay av-loop-endless av-loop-manual-endless av-slider-scroll-down-active av-default-height-applied   avia-slideshow-1" data-slideshow-options="{&quot;animation&quot;:&quot;fade&quot;,&quot;autoplay&quot;:true,&quot;loop_autoplay&quot;:&quot;endless&quot;,&quot;interval&quot;:7,&quot;loop_manual&quot;:&quot;manual-endless&quot;,&quot;autoplay_stopper&quot;:false,&quot;noNavigation&quot;:true,&quot;bg_slider&quot;:true,&quot;keep_padding&quot;:false,&quot;hoverpause&quot;:false,&quot;show_slide_delay&quot;:0,&quot;slide_height&quot;:&quot;100&quot;,&quot;image_attachment&quot;:&quot;&quot;}" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject"><ul class="avia-slideshow-inner " style="padding-bottom: 66.40625%;"><li style="background-position:center right;" data-img-url="/wp-content/uploads/2023/03/drops-339940_1920.jpg" class="avia-slideshow-slide av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99__0  slide-1 slide-odd"><div data-rel="slideshow-1" class="avia-slide-wrap "><div class="av-section-color-overlay" style="opacity: 0.4; background-color: #000000; "></div></div></li><li style="background-position:center right;" data-img-url="/wp-content/uploads/2023/03/landscape-4337228_1920.jpg" class="avia-slideshow-slide av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99__1  slide-2 slide-even"><div data-rel="slideshow-1" class="avia-slide-wrap "><div class="av-section-color-overlay" style="opacity: 0.4; background-color: #000000; "></div></div></li></ul><div class="avia-slideshow-arrows avia-slideshow-controls"><a href="#prev" class="prev-slide " aria-hidden="true" data-av_icon="î¡¼" data-av_iconfont="entypo-fontello" tabindex="-1">Previous</a><a href="#next" class="next-slide " aria-hidden="true" data-av_icon="î¡½" data-av_iconfont="entypo-fontello" tabindex="-1">Next</a></div><div class="av-slideshow-caption av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99__0 caption_fullwidth caption_center"><div class="container caption_container"><div class="slideshow_caption"><div class="slideshow_inner_caption"><div class="slideshow_align_caption"><h2 class="avia-caption-title " itemprop="name">Therapy and Training Solutions Ltd</h2><div class="avia-caption-content " itemprop="description"><p>Psychological Therapies and Mental Health Wellness Training</p>
+	<div class="avia-fullscreen-slider main_color   avia-builder-el-0  el_before_av_layout_row  avia-builder-el-first  container_wrap fullsize"><a href="#next-section" title="" class="scroll-down-link av-control-hidden" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></a><div class="avia-slideshow av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99 avia-slideshow-no scaling av_fullscreen avia-fade-slider av-slideshow-ui av-control-hidden av-no-slider-navigation av-hide-nav-arrows av-slideshow-autoplay av-loop-endless av-loop-manual-endless av-slider-scroll-down-active av-default-height-applied   avia-slideshow-1" data-slideshow-options="{&quot;animation&quot;:&quot;fade&quot;,&quot;autoplay&quot;:true,&quot;loop_autoplay&quot;:&quot;endless&quot;,&quot;interval&quot;:7,&quot;loop_manual&quot;:&quot;manual-endless&quot;,&quot;autoplay_stopper&quot;:false,&quot;noNavigation&quot;:true,&quot;bg_slider&quot;:true,&quot;keep_padding&quot;:false,&quot;hoverpause&quot;:false,&quot;show_slide_delay&quot;:0,&quot;slide_height&quot;:&quot;100&quot;,&quot;image_attachment&quot;:&quot;&quot;}" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject"><ul class="avia-slideshow-inner " style="padding-bottom: 66.40625%;"><li style="background-position:center right;" data-img-url="https://therapytrainingsolutions.com/wp-content/uploads/2023/03/drops-339940_1920.jpg" class="avia-slideshow-slide av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99__0  slide-1 slide-odd"><div data-rel="slideshow-1" class="avia-slide-wrap "><div class="av-section-color-overlay" style="opacity: 0.4; background-color: #000000; "></div></div></li><li style="background-position:center right;" data-img-url="https://therapytrainingsolutions.com/wp-content/uploads/2023/03/landscape-4337228_1920.jpg" class="avia-slideshow-slide av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99__1  slide-2 slide-even"><div data-rel="slideshow-1" class="avia-slide-wrap "><div class="av-section-color-overlay" style="opacity: 0.4; background-color: #000000; "></div></div></li></ul><div class="avia-slideshow-arrows avia-slideshow-controls"><a href="#prev" class="prev-slide " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello" tabindex="-1">Previous</a><a href="#next" class="next-slide " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello" tabindex="-1">Next</a></div><div class="av-slideshow-caption av-9of5cn-b6e1cfceef7d9526ae4e2f710e07aa99__0 caption_fullwidth caption_center"><div class="container caption_container"><div class="slideshow_caption"><div class="slideshow_inner_caption"><div class="slideshow_align_caption"><h2 class="avia-caption-title " itemprop="name">Therapy and Training Solutions Ltd</h2><div class="avia-caption-content " itemprop="description"><p>Psychological Therapies and Mental Health Wellness Training</p>
 </div><a href="#about" class="avia-slideshow-button avia-button avia-color-light avia-multi-slideshow-button" data-duration="800" data-easing="easeInOutQuad">About</a><a href="#register" class="avia-slideshow-button avia-button avia-color-theme-color avia-multi-slideshow-button avia-slideshow-button-2" data-duration="800" data-easing="easeInOutQuad">Register for Event</a></div></div></div></div></div></div></div>
 <div id="welcome" class="av-layout-grid-container av-99ae8n-454dabb6a28d366cea6a5a9278254538 entry-content-wrapper main_color av-fixed-cells  avia-builder-el-1  el_after_av_fullscreen  el_before_av_layout_row  grid-row-not-first  container_wrap fullsize">
 <div class="flex_cell av-90tnk7-fef7a23ced7c395f97f50d6d78237941 av-gridrow-cell av_one_fourth no_margin  avia-builder-el-2  el_before_av_cell_one_fourth  avia-builder-el-first  av-zero-padding"><div class="flex_cell_inner">
@@ -254,7 +256,7 @@ PLAu:6
 				<footer class="container_wrap socket_color" id="socket" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
                     <div class="container">
 
-                        <span class="copyright">Â© Copyright - Therapy Training Solutions </span>
+                        <span class="copyright">© Copyright - Therapy Training Solutions </span>
 
                         <ul class="noLightbox social_bookmarks icon_count_1"></ul>
                     </div>
@@ -268,7 +270,7 @@ PLAu:6
 
 		<!-- end wrap_all --></div>
 
-<a href="#top" title="Scroll to top" id="scroll-top-link" aria-hidden="true" data-av_icon="î¡¶" data-av_iconfont="entypo-fontello"><span class="avia_hidden_link_text">Scroll to top</span></a>
+<a href="#top" title="Scroll to top" id="scroll-top-link" aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"><span class="avia_hidden_link_text">Scroll to top</span></a>
 
 <div id="fb-root"></div>
 
@@ -279,9 +281,9 @@ PLAu:6
  <script type="text/javascript">
  /* <![CDATA[ */  
 var avia_framework_globals = avia_framework_globals || {};
-    avia_framework_globals.frameworkUrl = '/wp-content/themes/enfold/framework/';
-    avia_framework_globals.installedAt = '/wp-content/themes/enfold/';
-    avia_framework_globals.ajaxurl = '/wp-admin/admin-ajax.php';
+    avia_framework_globals.frameworkUrl = 'https://therapytrainingsolutions.com/wp-content/themes/enfold/framework/';
+    avia_framework_globals.installedAt = 'https://therapytrainingsolutions.com/wp-content/themes/enfold/';
+    avia_framework_globals.ajaxurl = 'https://therapytrainingsolutions.com/wp-admin/admin-ajax.php';
 /* ]]> */ 
 </script>
  
@@ -289,26 +291,26 @@ var avia_framework_globals = avia_framework_globals || {};
 var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
 //# sourceURL=mediaelement-core-js-before
 </script>
-<script id="mediaelement-core-js" src="/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"></script>
-<script id="mediaelement-migrate-js" src="/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=7.0.4"></script>
+<script id="mediaelement-core-js" src="https://therapytrainingsolutions.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"></script>
+<script id="mediaelement-migrate-js" src="https://therapytrainingsolutions.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=7.0.4"></script>
 <script id="mediaelement-js-extra">
 var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
 //# sourceURL=mediaelement-js-extra
 </script>
-<script id="wp-mediaelement-js" src="/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=7.0.4"></script>
-<script id="avia-footer-scripts-js" src="/wp-content/uploads/dynamic_avia/avia-footer-scripts-4b3684038c8173160630f954c6d3dad7---6426e4f65d73d.js"></script>
+<script id="wp-mediaelement-js" src="https://therapytrainingsolutions.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=7.0.4"></script>
+<script id="avia-footer-scripts-js" src="https://therapytrainingsolutions.com/wp-content/uploads/dynamic_avia/avia-footer-scripts-4b3684038c8173160630f954c6d3dad7---6426e4f65d73d.js"></script>
 <script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"/wp-includes/js/wp-emoji-release.min.js?ver=7.0.4"}}
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://therapytrainingsolutions.com/wp-includes/js/wp-emoji-release.min.js?ver=7.0.4"}}
 </script>
 <script type="module">
 /*! This file is auto-generated */
 var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
-//# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
+//# sourceURL=https://therapytrainingsolutions.com/wp-includes/js/wp-emoji-loader.min.js
 </script>
 
 
 <script>/**
- * Nav Scroll Polyfill â€” Structural Detection Algorithm
+ * Nav Scroll Polyfill — Structural Detection Algorithm
  *
  * Adds scroll-based background transition for fixed navigation headers.
  * Frameworks like Framer Motion normally drive this via variant animations on scroll.
@@ -319,16 +321,16 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
  *   2. SELF-DETECT: If no pre-tagged elements found, scan for elements matching
  *      the fixed-transparent-nav heuristic:
  *        a. computedStyle position is "fixed" or "sticky"
- *        b. computedStyle top â‰¤ 5px (pinned to top)
- *        c. Background is transparent (rgba alpha â‰ˆ 0, or "transparent")
- *        d. Contains â‰¥ 1 anchor link (navigation heuristic)
- *   3. SCROLL HANDLER: On scroll > 50px â†’ apply dark bg + backdrop blur.
- *      On scroll â‰¤ 10px â†’ revert. Hysteresis gap prevents flicker.
+ *        b. computedStyle top ≤ 5px (pinned to top)
+ *        c. Background is transparent (rgba alpha ≈ 0, or "transparent")
+ *        d. Contains ≥ 1 anchor link (navigation heuristic)
+ *   3. SCROLL HANDLER: On scroll > 50px → apply dark bg + backdrop blur.
+ *      On scroll ≤ 10px → revert. Hysteresis gap prevents flicker.
  *   4. TARGET BG: Read from data-nce-nav-scroll-bg if pre-tagged, else default
  *      to rgba(0,0,0,0.8).
  */
 (function() {
-    // â”€â”€â”€ Detection â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // ─── Detection ─────────────────────────────────────────────
 
     /** Check if a background-color string is transparent */
     function isTransparentBg(bg) {
@@ -346,7 +348,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
         if (m) {
             // Relative luminance approximation
             var lum = (parseInt(m[1]) * 299 + parseInt(m[2]) * 587 + parseInt(m[3]) * 114) / 1000;
-            // Light text â†’ dark bg, dark text â†’ light bg
+            // Light text → dark bg, dark text → light bg
             if (lum > 140) return 'rgba(0,0,0,0.8)';
             return 'rgba(255,255,255,0.85)';
         }
@@ -393,7 +395,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
         return results;
     }
 
-    // â”€â”€â”€ Scroll Handler â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // ─── Scroll Handler ────────────────────────────────────────
 
     var navs = findNavs();
     if (!navs.length) return;
@@ -504,7 +506,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
   });
 })();
 </script><script>/**
- * Hover Patterns Polyfill â€” Structural Detection (cross-platform)
+ * Hover Patterns Polyfill — Structural Detection (cross-platform)
  *
  * Adds hover effects to structurally-tagged elements:
  * - [data-nce-hover-nav]: nav links get opacity transition
@@ -519,7 +521,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 
     var cssRules = [];
 
-    // 1. Nav link hover â€” opacity transition
+    // 1. Nav link hover — opacity transition
     if (document.querySelector('[data-nce-hover-nav]')) {
         cssRules.push(
             '[data-nce-hover-nav] {',
@@ -531,7 +533,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
         );
     }
 
-    // 2. Card image hover â€” darken + arrow
+    // 2. Card image hover — darken + arrow
     if (document.querySelector('[data-nce-hover-card]')) {
         cssRules.push(
             '[data-nce-hover-card-img] {',
@@ -596,21 +598,21 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
  *     `FLBuilderLayout`)
  *
  * In a static export those bootstraps usually run, but our DOM/asset
- * rewrites can race the original ready callbacks â€” handlers attach to
+ * rewrites can race the original ready callbacks — handlers attach to
  * elements that have since been replaced, or builder modules that
  * cache layout dimensions get pinned to stale values. This polyfill
  * defensively re-fires the bootstrap chain in the right order:
  *
  *   1. Re-trigger jQuery's ready + load queues (idempotent: callbacks
  *      registered with `$.ready()` after the first fire ALREADY
- *      execute synchronously â€” but the actual jQuery internal queue
+ *      execute synchronously — but the actual jQuery internal queue
  *      can stall in some defer-loaded theme paths)
  *   2. Re-init Elementor frontend if present
  *   3. Re-init Divi modules + module loader (`et_pb_init_modules`)
  *   4. Re-init Beaver Builder layout if present
  *   5. Force resize so responsive themes re-measure layout
  *
- * Defensive â€” every step is try/wrapped because the WordPress
+ * Defensive — every step is try/wrapped because the WordPress
  * ecosystem is wildly varied. Missing globals are no-ops.
  */
 (function () {
@@ -629,7 +631,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
      * Re-trigger the jQuery DOMReady chain. jQuery normally fires its
      * ready queue once, then synchronously runs any later `$(fn)`
      * callbacks. But some themes register their ready handler inside
-     * an async-loaded script that resolves AFTER the queue drained â€”
+     * an async-loaded script that resolves AFTER the queue drained —
      * those callbacks never run. Manually flushing both ready and load
      * is harmless when the queue is empty (jQuery dedupes by checking
      * `isReady`).
@@ -640,7 +642,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 
         try {
             // Force `isReady` then re-emit. Some themes use `$.holdReady`
-            // to delay until a font/image arrives â€” this re-trigger
+            // to delay until a font/image arrives — this re-trigger
             // unblocks them.
             if ($.holdReady && typeof $.holdReady === 'function') {
                 try { $.holdReady(false); } catch (e) { /* ignore */ }
@@ -650,14 +652,14 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
             // use $(document).ready(fn). Both are reentrant safe.
             $(document).ready(function () { /* trigger queue flush */ });
 
-            // window.load â€” some themes use this for hero-image-load
+            // window.load — some themes use this for hero-image-load
             // gates. Manual dispatch ensures handlers re-run if their
             // listener was added post-load.
             if (typeof window.dispatchEvent === 'function') {
                 try {
                     window.dispatchEvent(new Event('load'));
                 } catch (e) {
-                    // Older browsers â€” fall back to legacy event.
+                    // Older browsers — fall back to legacy event.
                     var ev = document.createEvent('Event');
                     ev.initEvent('load', false, false);
                     window.dispatchEvent(ev);
@@ -726,7 +728,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
     /**
      * Wait until either jQuery is loaded or we time out. Some themes
      * load jQuery via wp_enqueue_script with `defer` so it lands well
-     * after DOMContentLoaded â€” without polling we'd miss the ready
+     * after DOMContentLoaded — without polling we'd miss the ready
      * re-fire window.
      */
     function waitForJQuery(callback) {
@@ -737,7 +739,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
                 return;
             }
             if (Date.now() - start > BOOT_TIMEOUT_MS) {
-                // No jQuery on this site â€” that's fine, modern themes
+                // No jQuery on this site — that's fine, modern themes
                 // and the WP block editor work without it. Run the
                 // builder + layout passes anyway.
                 callback();
@@ -787,10 +789,10 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
   }
 
   // Multilingual accept/dismiss keywords
-  var CONSENT_KEYWORDS = ['cookie', 'cookies', 'datenschutz', 'privacidad', 'confidentialitÃ©'];
+  var CONSENT_KEYWORDS = ['cookie', 'cookies', 'datenschutz', 'privacidad', 'confidentialité'];
   var ACCEPT_KEYWORDS = [
     'accept', 'allow', 'got it', 'agree', 'close',       // English
-    'akzeptieren', 'ablehnen', 'schlieÃŸen', 'zustimmen',  // German
+    'akzeptieren', 'ablehnen', 'schließen', 'zustimmen',  // German
     'accepter', 'refuser', 'fermer', 'tout accepter',     // French
     'aceptar', 'rechazar', 'cerrar',                       // Spanish
     'accetta', 'rifiuta', 'chiudi',                        // Italian
