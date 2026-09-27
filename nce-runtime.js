@@ -1,6 +1,7 @@
 (function() {
-    var origin = "https://therapytrainingsolutions.com";
-    var allowed = ["https://therapytrainingsolutions.com/"];
+    var pageOrigin = window.location.origin === "null" ? "" : window.location.origin;
+    var origin = pageOrigin;
+    var allowed = [pageOrigin + "/"];
     var page = window.__NCE_PAGE__ || { path: "/", root: "./" };
     var relativeRoot = page.root || "./";
     var pageBase = origin + (page.path || "/");
