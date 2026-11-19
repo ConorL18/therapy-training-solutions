@@ -1,6 +1,9 @@
 (function() {
-    var origin = "https://therapytrainingsolutions.com";
-    var allowed = ["https://therapytrainingsolutions.com/"];
+    if (typeof window === "undefined" || typeof document === "undefined") return;
+
+    var pageOrigin = window.location.origin === "null" ? "" : window.location.origin;
+    var origin = pageOrigin;
+    var allowed = [pageOrigin + "/", pageOrigin + "/sessions", pageOrigin + "/contact"];
     var page = window.__NCE_PAGE__ || { path: "/", root: "./" };
     var relativeRoot = page.root || "./";
     var pageBase = origin + (page.path || "/");

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Therapy and Training Solutions about The Psychology Sessions.">
+  <title>Contact | The Psychology Sessions</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #263126;
+      background: #f5f7f1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      display: grid;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1rem;
+      place-items: center;
+    }
+
+    .contact-card {
+      position: relative;
+      display: grid;
+      width: min(560px, 100%);
+      min-height: 240px;
+      padding: 4rem 2rem 2.5rem;
+      place-content: center;
+      border: 1px solid #dce4cf;
+      border-top: 5px solid #719430;
+      background: #fff;
+      box-shadow: 0 8px 28px rgb(22 34 12 / 10%);
+      text-align: center;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      padding: 0.4rem 0.6rem;
+      border: 0;
+      background: transparent;
+      color: #425719;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .back-button:hover,
+    .back-button:focus-visible {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+    }
+
+    .back-button:focus-visible {
+      outline: 2px solid #719430;
+      outline-offset: 2px;
+    }
+
+    h1 {
+      margin: 0 0 0.75rem;
+      color: #26340f;
+      font-size: clamp(1.8rem, 5vw, 2.4rem);
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    p + p {
+      margin-top: 0.4rem;
+    }
+
+    a {
+      color: #425719;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 480px) {
+      .contact-card {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="contact-card">
+    <button class="back-button" id="back-button" type="button">Back</button>
+    <h1>Contact us</h1>
+    <p>Contact us at <a href="mailto:info.therapytrainingsolutions@gmail.com">info.therapytrainingsolutions@gmail.com</a></p>
+    <p>See our <a href="https://www.instagram.com/therapytrainingsolutions?avpt=Ym0zYW1pYnhjaHpn&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+  </main>
+  <script>
+    document.getElementById("back-button").addEventListener("click", function () {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "../index.html";
+      }
+    });
+  </script>
+  <script>window.__NCE_PAGE__ = { path: "/contact/", root: "../" };</script>
+  <script src="../nce-runtime.js"></script>
+</body>
+</html>
