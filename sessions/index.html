@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Psychology Sessions are a series of conversations from Therapy and Training Solutions Ltd exploring the psychology behind everyday life.">
+  <title>The Psychology Sessions</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --green: #425719;
+      --green-dark: #26340f;
+      --green-light: #719430;
+      --lime: #a7cf62;
+      --ink: #263126;
+      --muted: #596454;
+      --paper: #f5f7f1;
+      --white: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--green);
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      height: 130px;
+      padding: 20px max(1.25rem, calc((100% - 1120px) / 2));
+      background: var(--white);
+      box-shadow: 0 2px 12px rgb(22 34 12 / 10%);
+    }
+
+    .brand img {
+      display: block;
+      width: auto;
+      max-width: min(270px, calc(100vw - 104px));
+      height: 90px;
+      object-fit: contain;
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 90px;
+    }
+
+    .site-nav a {
+      display: flex;
+      align-items: center;
+      height: 90px;
+      padding: 0 13px;
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 90px;
+      text-decoration: none;
+    }
+
+    .site-nav a[href*="contact/index.html"] {
+      height: auto;
+      width: 192px;
+      padding: 8px 12px;
+      border: 1px solid var(--green);
+      line-height: 18.2px;
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus-visible {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+    }
+
+    .nav-toggle {
+      display: none;
+      align-items: center;
+      justify-content: flex-end;
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: var(--green);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .nav-toggle:focus-visible {
+      outline: 3px solid var(--green-light);
+      outline-offset: 2px;
+    }
+
+    .nav-toggle-icon {
+      display: grid;
+      gap: 4px;
+      width: 20px;
+    }
+
+    .nav-toggle-icon span {
+      display: block;
+      height: 2px;
+      background: currentColor;
+    }
+
+    main {
+      width: min(960px, calc(100% - 2rem));
+      margin: 0 auto;
+    }
+
+    .page-intro {
+      margin: 2rem 0 1.5rem;
+      padding: clamp(2rem, 6vw, 4.5rem);
+      border-radius: 0.5rem;
+      background: linear-gradient(135deg, var(--green-dark), var(--green));
+      color: var(--white);
+    }
+
+    .eyebrow,
+    .session-number {
+      color: var(--lime);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 16ch;
+      margin-bottom: 0.5rem;
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      line-height: 1.1;
+    }
+
+    .tagline {
+      margin-bottom: 1rem;
+      color: #e4efce;
+      font-size: clamp(1.2rem, 3vw, 1.7rem);
+      font-weight: 700;
+    }
+
+    .page-intro p:last-of-type {
+      max-width: 68ch;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 0.4rem;
+      padding: 0.7rem 1.15rem;
+      border-radius: 0.2rem;
+      background: var(--lime);
+      color: var(--green-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      background: var(--white);
+    }
+
+    .context {
+      margin: 2rem 0;
+    }
+
+    .context h2,
+    .sessions-heading {
+      color: var(--green-dark);
+    }
+
+    .context-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.5rem;
+    }
+
+    .context-card {
+      padding: 1.5rem;
+      border-left: 4px solid var(--lime);
+      background: var(--white);
+    }
+
+    .context-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .sessions-heading {
+      margin: 3rem 0 1rem;
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+    }
+
+    .session-list {
+      display: grid;
+      gap: 0.85rem;
+      margin-bottom: 3rem;
+    }
+
+    .session {
+      overflow: hidden;
+      border: 1px solid #d9e0cf;
+      border-radius: 0.35rem;
+      background: var(--white);
+    }
+
+    .session summary {
+      position: relative;
+      display: grid;
+      gap: 0.2rem 1rem;
+      padding: 1.15rem 3.5rem 1.15rem 1.4rem;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .session summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .session summary::after {
+      position: absolute;
+      top: 50%;
+      right: 1.3rem;
+      color: var(--green);
+      content: "+";
+      font-size: 1.8rem;
+      line-height: 1;
+      transform: translateY(-50%);
+    }
+
+    .session[open] summary::after {
+      content: "\2212";
+    }
+
+    .session summary:focus-visible {
+      outline: 3px solid var(--green-light);
+      outline-offset: -3px;
+    }
+
+    .session-number {
+      color: var(--green-light);
+    }
+
+    .session-title {
+      color: var(--green-dark);
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .session-tagline {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .session-body {
+      padding: 0 1.4rem 1.5rem;
+      border-top: 1px solid #e8ecdf;
+    }
+
+    .session-body h3 {
+      margin: 1.3rem 0 0.5rem;
+      color: var(--green-dark);
+      font-size: 1.05rem;
+    }
+
+    .session-question {
+      margin: 1rem 0;
+      padding-left: 1rem;
+      border-left: 3px solid var(--lime);
+    }
+
+    .session-body ul {
+      padding-left: 1.25rem;
+    }
+
+    .enquiry-link {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-weight: 700;
+    }
+
+    .contact-panel {
+      margin: 3rem 0;
+      padding: 2rem;
+      background: #e8efdc;
+      text-align: center;
+    }
+
+    .site-footer {
+      padding: 2rem 1rem;
+      background: var(--green-dark);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .site-footer a {
+      color: var(--lime);
+    }
+
+    @media (max-width: 989px) {
+      .site-header {
+        position: relative;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 1rem;
+        height: 120px;
+        padding: 20px 28px;
+      }
+
+      .brand img {
+        height: 80px;
+      }
+
+      .nav-toggle {
+        display: inline-flex;
+        flex: 0 0 48px;
+      }
+
+      .site-nav {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        height: auto;
+      }
+
+      .site-header.nav-open .site-nav {
+        display: flex;
+        position: fixed;
+        z-index: 2000;
+        inset: 0;
+        justify-content: center;
+        padding: 2rem max(2.5rem, calc((100% - 290px) / 2));
+        background: var(--green-light);
+      }
+
+      .site-nav a {
+        height: auto;
+        padding: 15px 0;
+        border: 0;
+        color: var(--white);
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18.2px;
+      }
+
+      .site-nav a[href*="contact/index.html"] {
+        align-self: flex-start;
+        justify-content: flex-start;
+        width: auto;
+        max-width: none;
+        margin-top: 0;
+        padding: 15px 0;
+        border: 0;
+      }
+
+      .nav-toggle > span:last-child {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+      }
+
+      .nav-toggle[aria-expanded="true"] {
+        position: fixed;
+        z-index: 2001;
+        top: 0.75rem;
+        right: 20px;
+        color: var(--white);
+      }
+
+      .nav-toggle[aria-expanded="true"] .nav-toggle-icon {
+        display: none;
+      }
+
+      .nav-toggle[aria-expanded="true"]::after {
+        content: "\00d7";
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1;
+      }
+
+      body.nav-open {
+        overflow: hidden;
+      }
+
+    }
+
+    @media (max-width: 640px) {
+      .context-grid { grid-template-columns: 1fr; }
+      .session summary { padding-left: 1rem; }
+      .session-body { padding-right: 1rem; padding-left: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Therapy Training Solutions home">
+      <img src="../wp-content/uploads/2023/03/Training-and-Therapy-Solutions.png" alt="Therapy Training Solutions">
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-navigation">
+      <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span>Menu</span>
+    </button>
+    <nav class="site-nav" id="main-navigation" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="./index.html" aria-current="page">Available Sessions</a>
+      <a href="../contact/index.html">Enquire about a booking</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro" aria-labelledby="page-title">
+      <p class="eyebrow">Presented by Therapy and Training Solutions Ltd</p>
+      <h1 id="page-title">The Psychology Sessions</h1>
+      <p class="tagline">Good food. Better conversations. Psychology you can use.</p>
+      <p>The Psychology Sessions are a series of conversations from Therapy and Training Solutions Ltd exploring the psychology behind everyday life.</p>
+      <p>Hosted by experienced CBT clinicians and educators, each lunch or dinner combines accessible psychological science, practical ideas, good food and thoughtful conversation.</p>
+      <p>Come alone, with a friend, colleague or team. You do not need any previous knowledge of psychology. Just bring your curiosity.</p>
+      <a class="button" href="#sessions">Explore the sessions</a>
+    </section>
+
+    <section class="context" aria-labelledby="why-title">
+      <h2 id="why-title">Why these conversations?</h2>
+      <div class="context-grid">
+        <div class="context-card">
+          <p>We spend a great deal of time talking about mental health. The Psychology Sessions make space to talk about the psychology underneath everyday experiences: why we worry, why our thoughts feel convincing, what resilience really means, when distress becomes disorder, how to support somebody well, and what actually makes a good life.</p>
+          <p>The tone is thoughtful rather than prescriptive. These are accessible educational events, not therapy sessions, and they are designed to make psychological ideas useful without pretending that complex experiences have simple answers.</p>
+        </div>
+        <div class="context-card">
+          <h3>What to expect</h3>
+          <ul>
+            <li>One engaging psychological question at the centre of each event</li>
+            <li>Accessible discussion led by experienced CBT clinicians and educators</li>
+            <li>Evidence-informed ideas without jargon or hype</li>
+            <li>Practical understanding you can take back into everyday life</li>
+            <li>An informal lunch or dinner setting with time for thoughtful conversation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="sessions" aria-labelledby="sessions-title">
+      <h2 class="sessions-heading" id="sessions-title">Available Sessions</h2>
+      <div class="session-list">
+        <details class="session" id="session-1">
+          <summary>
+            <span class="session-number">SESSION 1</span>
+            <span class="session-title">Why We Think the Way We Think</span>
+            <span class="session-tagline">Your mind is not a camera. It is an interpreter.</span>
+          </summary>
+          <div class="session-body">
+            <p class="session-question"><strong>The question</strong><br>How much of what we experience comes from what happens - and how much comes from the meaning we give it?</p>
+            <p>Two people can experience exactly the same event and walk away with completely different conclusions. An unanswered message becomes rejection. A difficult meeting becomes evidence of failure. A colleague's expression becomes proof that something is wrong.</p>
+            <p>Why does the mind do this? In this session, the clinicians from Therapy and Training Solutions explore how attention, assumptions, previous experience and automatic thoughts influence what we notice and how we respond.</p>
+            <p>Drawing particularly on cognitive behavioural psychology, the session looks at the shortcuts the mind routinely takes without reducing emotional distress to simply "thinking negatively". It is an accessible conversation about perception, interpretation and psychological flexibility: why our thoughts can feel so convincing, when questioning them can help, and where the idea that we should simply "change our thinking" becomes far too simplistic.</p>
+            <h3>What we will explore</h3>
+            <ul>
+              <li>Attention, assumptions and previous experience</li>
+              <li>Automatic thoughts and interpretation</li>
+              <li>Why thoughts can feel like facts</li>
+              <li>When questioning our thinking is useful - and when simplistic positivity is not</li>
+            </ul>
+            <a class="enquiry-link" href="../contact/index.html">Enquire about a booking</a>
+          </div>
+        </details>
+
+        <details class="session" id="session-2">
+          <summary>
+            <span class="session-number">SESSION 2</span>
+            <span class="session-title">Beyond "Just Be Resilient"</span>
+            <span class="session-tagline">When does coping become putting up with too much?</span>
+          </summary>
+          <div class="session-body">
+            <p class="session-question"><strong>The question</strong><br>Is workplace stress something individuals need to manage - or something organisations need to change?</p>
+            <p>Resilience has become one of the most frequently used words in workplace wellbeing. Employees are encouraged to manage stress, develop coping strategies and become more resilient. But resilient to what?</p>
+            <p>This session examines the psychology of stress, coping and burnout and asks where responsibility for workplace wellbeing should actually sit. Individual coping skills matter - but so do workload, autonomy, relationships, leadership, organisational culture and whether people feel able to speak honestly about difficulties.</p>
+            <p>This is not an argument against resilience. It is an attempt to rescue the idea from oversimplification. Participants leave with a more psychologically informed framework for distinguishing between what an individual can reasonably change, what managers can influence and what requires organisational action.</p>
+            <h3>What we will explore</h3>
+            <ul>
+              <li>Stress, coping and burnout</li>
+              <li>Workload, autonomy, relationships and leadership</li>
+              <li>The role of organisational culture</li>
+              <li>What individuals, managers and organisations can realistically change</li>
+            </ul>
+            <a class="enquiry-link" href="../contact/index.html">Enquire about a booking</a>
+          </div>
+        </details>
+
+        <details class="session" id="session-3">
+          <summary>
+            <span class="session-number">SESSION 3</span>
+            <span class="session-title">The Anxious Mind</span>
+            <span class="session-tagline">Why we worry - and why telling yourself not to worry rarely works.</span>
+          </summary>
+          <div class="session-body">
+            <p class="session-question"><strong>The question</strong><br>Why does the mind keep worrying even when worry itself is making us miserable?</p>
+            <p>Everyone worries. The human mind is extraordinarily good at imagining what might go wrong. Usually that ability protects us. Sometimes it becomes exhausting.</p>
+            <p>Why can a small uncertainty produce hours of mental problem-solving? Why does reassurance make us feel better briefly but leave the next worry even harder to tolerate? And why does avoiding anxiety often make anxiety more powerful?</p>
+            <p>Through an accessible CBT-informed lens, The Anxious Mind explores threat, uncertainty, avoidance, checking and reassurance - and the difference between solving a genuine problem and repeatedly trying to solve something that has not happened.</p>
+            <p>Rather than promising to eliminate anxiety, the session asks a more useful question: how can we respond differently when the anxious mind demands certainty that life cannot provide?</p>
+            <h3>What we will explore</h3>
+            <ul>
+              <li>Threat and uncertainty</li>
+              <li>Avoidance, checking and reassurance</li>
+              <li>Problem-solving versus repetitive worry</li>
+              <li>Responding differently to the demand for certainty</li>
+            </ul>
+            <a class="enquiry-link" href="../contact/index.html">Enquire about a booking</a>
+          </div>
+        </details>
+
+        <details class="session" id="session-4">
+          <summary>
+            <span class="session-number">SESSION 4</span>
+            <span class="session-title">Conversations That Matter</span>
+            <span class="session-tagline">How to support someone without becoming their therapist.</span>
+          </summary>
+          <div class="session-body">
+            <p class="session-question"><strong>The question</strong><br>What does a genuinely helpful mental-health conversation actually sound like?</p>
+            <p>We are frequently told that we need to talk more about mental health. But once somebody begins talking, many of us are unsure what to do next.</p>
+            <p>Should we give advice? Ask questions? Try to reassure them? What if they become upset? What if they tell us something serious? And how do we care without assuming responsibility for another person's mental health?</p>
+            <p>Conversations That Matter is a practical session about listening, responding and maintaining appropriate boundaries. Drawing on clinical and communication skills, the Therapy and Training Solutions team explores why people often rush to solve distress, what helpful listening actually involves and how ordinary human conversations can become safer and more meaningful.</p>
+            <p>Participants leave with a memorable framework for supportive conversations, including knowing when listening is enough and when additional professional or organisational support is needed.</p>
+            <h3>What we will explore</h3>
+            <ul>
+              <li>Listening without rushing to fix</li>
+              <li>Helpful questions and responses</li>
+              <li>Maintaining appropriate boundaries</li>
+              <li>Recognising when further professional or organisational support is needed</li>
+            </ul>
+            <a class="enquiry-link" href="../contact/index.html">Enquire about a booking</a>
+          </div>
+        </details>
+
+        <details class="session" id="session-5">
+          <summary>
+            <span class="session-number">SESSION 5</span>
+            <span class="session-title">Normal, Distressed or Disordered?</span>
+            <span class="session-tagline">When does ordinary human distress become a mental-health disorder?</span>
+          </summary>
+          <div class="session-body">
+            <p class="session-question"><strong>The question</strong><br>Are we diagnosing too much - or finally talking about mental health?</p>
+            <p>Mental-health language has entered everyday conversation. We describe ourselves as anxious, depressed, traumatised, burned out or "a bit OCD". Greater awareness has helped many people recognise difficulties, seek support and talk about experiences that previous generations often kept hidden.</p>
+            <p>But it also raises difficult questions. When does sadness become depression? When does anxiety become an anxiety disorder? Can ordinary distress become medicalised? Does diagnosis help people understand what they are experiencing - or sometimes tell us less than we imagine?</p>
+            <p>This session explores diagnosis, distress and psychological formulation without taking simplistic positions for or against psychiatric diagnosis. The more interesting question is what diagnosis, personal experience and psychological formulation can each help us understand about a human being who is struggling.</p>
+            <h3>What we will explore</h3>
+            <ul>
+              <li>The language of mental health in everyday life</li>
+              <li>Ordinary distress and mental-health disorder</li>
+              <li>The strengths and limits of diagnosis</li>
+              <li>How diagnosis, lived experience and psychological formulation offer different kinds of understanding</li>
+            </ul>
+            <a class="enquiry-link" href="../contact/index.html">Enquire about a booking</a>
+          </div>
+        </details>
+
+        <details class="session" id="session-6">
+          <summary>
+            <span class="session-number">SESSION 6</span>
+            <span class="session-title">The Good Life</span>
+            <span class="session-tagline">Perhaps a good life involves more than feeling good.</span>
+          </summary>
+          <div class="session-body">
+            <p class="session-question"><strong>The question</strong><br>If happiness isn't the only measure of psychological health, what else matters?</p>
+            <p>We are surrounded by advice about how to become happier. But should happiness really be the goal?</p>
+            <p>A meaningful life inevitably contains disappointment, anxiety, uncertainty, grief, frustration and effort. Trying to eliminate those experiences may sometimes make life smaller rather than better.</p>
+            <p>In the final Psychology Session, Therapy and Training Solutions explores what psychological science can reasonably tell us about wellbeing - and where popular psychology sometimes promises too much.</p>
+            <p>The conversation considers relationships, meaning, achievement, attention, values and the curious human tendency to compare our private lives with other people's public ones. Rather than offering "ten secrets to happiness", the session ends with a different question: if feeling good all the time is neither realistic nor necessary, what does living well actually look like?</p>
+            <h3>What we will explore</h3>
+            <ul>
+              <li>Relationships, meaning and achievement</li>
+              <li>Attention and values</li>
+              <li>The limits of happiness as a goal</li>
+              <li>What it might mean to live well rather than simply feel good</li>
+            </ul>
+            <a class="enquiry-link" href="../contact/index.html">Enquire about a booking</a>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact-panel" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact us via e-mail</h2>
+      <p>Contact us via e-mail for further details and pricing structure to suit your business or organization needs –</p>
+      <a class="button" href="../contact/index.html">Enquire about a booking</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <strong>Psychology worth talking about.</strong>
+    <p>The Psychology Sessions - presented by Therapy and Training Solutions Ltd. Experienced clinicians and educators translating psychological science into practical understanding.</p>
+    <a href="mailto:info@therapytrainingsolutions.com">info@therapytrainingsolutions.com</a>
+  </footer>
+  <script>
+    (function () {
+      var header = document.querySelector(".site-header");
+      var toggle = header.querySelector(".nav-toggle");
+      var navigation = header.querySelector(".site-nav");
+
+      function closeNavigation() {
+        header.classList.remove("nav-open");
+        document.body.classList.remove("nav-open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-label", "Menu");
+      }
+
+      toggle.addEventListener("click", function () {
+        var isOpen = toggle.getAttribute("aria-expanded") === "true";
+        header.classList.toggle("nav-open", !isOpen);
+        document.body.classList.toggle("nav-open", !isOpen);
+        toggle.setAttribute("aria-expanded", String(!isOpen));
+        toggle.setAttribute("aria-label", isOpen ? "Menu" : "Close menu");
+      });
+
+      navigation.addEventListener("click", function (event) {
+        if (event.target.closest("a")) closeNavigation();
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") closeNavigation();
+      });
+    })();
+  </script>
+  <script>window.__NCE_PAGE__ = { path: "/sessions/", root: "../" };</script>
+  <script src="../nce-runtime.js"></script>
+</body>
+</html>
